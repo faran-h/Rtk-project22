@@ -1,13 +1,18 @@
 {
+  "homepage": "https://faran-h.github.io/Rtk-project",
   "name": "react-dastresi-store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
